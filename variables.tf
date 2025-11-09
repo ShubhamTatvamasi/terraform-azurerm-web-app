@@ -10,7 +10,6 @@ variable "location" {
   default     = "Central India"
 }
 
-
 variable "subscription_id" {
   description = "The subscription ID to deploy resources into."
   type        = string
