@@ -8,7 +8,7 @@ resource "azurerm_linux_web_app" "webapp" {
     application_stack {
       docker_image_name = var.container_image
     }
-    always_on = false
+    # always_on = false
   }
 
   app_settings = {
